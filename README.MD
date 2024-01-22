@@ -10,4 +10,12 @@ Strong believer that ease of use beats having tons of features more often than n
 
 For how to use this crate and how to add more methods, feel free to look into client.rs.
 
+## Client Middleware
+
+Given it's a hyper/tower http client, it is possible to add any tower middleware i.e. for batch requests, rate limiting or anything else.
+
+## Signer
+
+Alloy signer can be used for signing, or any other signer.
+
 If you want to add more methods, push a PR or fork this ^^
